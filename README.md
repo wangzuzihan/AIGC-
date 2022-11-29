@@ -15,6 +15,6 @@
 第1波浪潮：小模型（small models）占主导地位（2015年前），小模型在理解语言方面被认为是“最先进的”。这些小模型擅长于分析任务，可以用于从交货时间预测到欺诈分类等工作。但是，对于通用生成任务，它们的表达能力不够。生成人类级别的写作或代码仍然是一个白日梦。
 第2波浪潮：规模竞赛（2015年-至今），Google Research的一篇里程碑式的论文 Attention is All You Need https://arxiv.org/abs/1706.03762 描述了一种用于自然语言理解的新的神经网络架构，称为transformer，它可以生成高质量的语言模型，同时具有更强的并行性，需要的训练时间更少，同时transformer的应用范围也更加广泛，可以相对容易地在各领域进行定制。
 
-![图1]("E:\Last year\Intern\AIGC\image storage")
+![图1]("http://github.com/wangzuzihan/AIGC-/raw/master/1.png")
 
 
