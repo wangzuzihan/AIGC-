@@ -15,31 +15,34 @@
 第1波浪潮：小模型（small models）占主导地位（2015年前），小模型在理解语言方面被认为是“最先进的”。这些小模型擅长于分析任务，可以用于从交货时间预测到欺诈分类等工作。但是，对于通用生成任务，它们的表达能力不够。生成人类级别的写作或代码仍然是一个白日梦。
 第2波浪潮：规模竞赛（2015年-至今），Google Research的一篇里程碑式的论文 Attention is All You Need https://arxiv.org/abs/1706.03762 描述了一种用于自然语言理解的新的神经网络架构，称为transformer，它可以生成高质量的语言模型，同时具有更强的并行性，需要的训练时间更少，同时transformer的应用范围也更加广泛，可以相对容易地在各领域进行定制。
 
-![图1]("https://github.com/wangzuzihan/AIGC-/blob/b2837d2bc20a5b43c08bc86d91958b7388dcda59/1.PNG")
-![图2]("http://github.com/wangzuzihan/AIGC-/raw/master/2.png")
+![1](https://user-images.githubusercontent.com/118708553/204441856-b1ee2d36-e6c5-490f-b6eb-c208527ade45.PNG)
+![2](https://user-images.githubusercontent.com/118708553/204441993-dea0d467-e0f8-4a0c-851d-f014746c1a75.JPEG)
+
 
 果不其然，随着模型越来越大，它们开始可以输出达到人类水平的结果，然后是超人的结果。从2015年到2020年，用于训练这些模型的计算量增加了6个数量级，其结果在书写、语音、图像识别、阅读和语言理解方面超过了人类的表现水平。OpenAI的GPT-3表现尤其突出：该模型的性能比GPT-2有了巨大的飞跃，并且从代码生成到笑话编写的任务中都提供了出色的Twitter demo来证明。据我们了解，就在最近，Microsoft已经迭代出了GPT-4，其在提升多轮长对话的表现方面有了更加出色的表现。
 
 尽管所有的基础研究都取得了进展，但这些模型并不普遍。它们庞大且难以运行(需要特别的GPU配置)，不能被更多人广泛触达使用(不可用或只进行封闭测试)，而且作为云服务使用成本昂贵。尽管存在这些限制，最早的生成式AI应用程序也已经开始进入竞争。
 
-![图3]("http://github.com/wangzuzihan/AIGC-/raw/master/3.png")
+![3](https://user-images.githubusercontent.com/118708553/204442080-e7fe54b5-7993-49fa-82bc-1f4c29e69c4f.PNG)
+
 
 第3波浪潮：更好、更快和更便宜（2022+），算力变得更便宜，新技术，如扩散模型（diffusion models），降低了训练和运行所需的成本。研究人员继续开发更好的算法和更大的模型。开发人员的访问权限从封闭测试扩展到开放测试，或者在某些情况下扩展到开源。
 
-![图3]("http://github.com/wangzuzihan/AIGC-/raw/master/3.png")
+![4](https://user-images.githubusercontent.com/118708553/204442399-fb58a127-73e2-40cb-a95c-f2072bcb0bf9.JPEG)
 
 对于那些渴望接触LLMs（Large Language Model 大语言模型）的开发人员来说，探索和应用开发的闸门现在已经打开，应用开始大量涌现。
+
 第4波浪潮：杀手级应用出现（现在），随着平台层的稳固，模型继续变得更好、更快和更便宜，模型的获取趋于免费和开源，应用层的创造力已经成熟。
 
-![图4]("http://github.com/wangzuzihan/AIGC-/raw/master/4.png")
-![图5]("http://github.com/wangzuzihan/AIGC-/raw/master/5.png")
+![5](https://user-images.githubusercontent.com/118708553/204442444-25bdbcaf-592b-43d1-a8ae-d83c719f0abd.JPEG)
+![6](https://user-images.githubusercontent.com/118708553/204446889-15b4dc20-1b02-47b7-9464-ee7648a4605c.png)
 
 正如移动设备通过GPS、摄像头和网络连接等新功能释放了新类型的应用程序一样，我们预计这些大型模型将激发生成式AI应用程序的新浪潮。就像十年前移动互联网的拐点被一些杀手级应用打开了市场一样，我们预计生成式AI的杀手级应用程序也会出现，比赛开始了。
 
 三、市场格局
 ---
 下面是一个示意图，说明了为每个类别提供动力的平台层，以及将在其上构建的潜在应用程序类型。
-![图6]("http://github.com/wangzuzihan/AIGC-/raw/master/6.png")
+![7](https://user-images.githubusercontent.com/118708553/204446620-0e9b08f4-38d6-4971-915d-eabc8f5f6ff2.png)
 
 ### 3.1 模型
 `文本（Text）：`是目前最先进的领域，以GPT-3为例，其文本生成能力已被直接应用于Writesonic、 Conversion.ai、 Snazzy AI、 Copysmith、 Copy.ai等文本写作/编辑工具中。另一方面，以transformer架构为重要代表，相关的底层架构仍在不断精进。如今，这些模型在一般的中短篇形式的写作中相当出色(但即便如此，它们通常用于迭代或初稿)。而对话则为文本的另一重要发展方向，具有代表性的是Google的LaMDA、PaLM以及最新发布的GPT-4。
@@ -57,7 +60,8 @@
 `生物领域：`人们于近几年开始关注 AI 和计算机辅助药物设计（CADD）在制药领域的应用，并开始尝试将其应用于实际生产中，其中在小分子制药领域使用较为成熟。AI 和 CADD 相关技术的使用帮助研发者成功缩短研发周期、寻找新的突破方向和降低研发成本，但目前还面临着数据不足、软件/学习门槛高和相关人才缺乏等障碍。除 此之外人们还希望能够在模型准确性、运算速度和算力调用的便捷性上有更多提升。
 
 还有很多其他领域，比如从音频和音乐到化学等等，都在进行基础模型的研发。下面这张图是基本模型进展和相关应用程序成为可能的时间表，其中2025年及以后的部分只是一个猜测。
-![图7]("http://github.com/wangzuzihan/AIGC-/raw/master/7.png")
+![8](https://user-images.githubusercontent.com/118708553/204446980-4a6c8388-f539-4ee0-862a-fcd4a206abca.png)
+
 
 ### 3.2 应用程序
 以下是一些让我们感到兴奋的应用，这仅仅只是一部分，实际上的应用要比我们所捕捉到的多得多，我们被创始人和开发人员所梦想的创造性应用程序所吸引。
@@ -66,18 +70,22 @@
 ·`直行业的写作助手（Vertical specific writing assistants）：`现在大多数写作助手都是通用型的，我们相信为特定的终端市场构建更好的生成式应用程序有着巨大机会，比如从法律合同编写到剧本编写。这里的产品差异化体现在针对特定工作流的模型和UX交互的微调。
 
 `代码生成（Code generation）：`当前的应用程序推动了开发人员的发展，使他们的工作效率大大提高。在安装了Copilot的项目中，它生成了近40%的代码。但更大的机会可能是为C端消费者赋能编程开发能力，学习提示（learning to prompt）可能会成为最终的高级编程语言。
-![图8]("http://github.com/wangzuzihan/AIGC-/raw/master/8.png")
+![9](https://user-images.githubusercontent.com/118708553/204447045-4f7ed247-067d-473a-88b3-8b8975c13f56.png)
+
+
 艺术生成（Art generation）：整个艺术史和流行文化的世界现在都被编码进了这些大型模型中，这将允许任何人随意探索在以前可能需要花人一辈子的时间才能掌握的主题和风格。
 
 （1）文生图
 图片数据在互联网上容易获得，文字生成图片已经是AIGC较为成熟的技术，很多图片的质量比较高，已经达到了可以商用的程度。AIGC的确极大降低了人们的创作门槛，没有经过技法训练的人现在仅凭自己的想法就能方便创造属于自己的作品，在未来这将重塑人们认知艺术的维度。不过就目前来看，其取代一些初级的画家是有可能的，但要取代真正头部的艺术家还是很难的。经过我们的了解，目前文生图发展的趋势是如何生成多轮可持续的高质量的图片，而不仅仅是在某一次生成令人眼前一亮的图片。Open AI在2022年4月迭代出的DALL-E模型使得图片生成的质量有了很大的提升。此后不久，Google研制出了一个基于diffusion model的，几乎有相同生成质量的模型Imagen。同时，Google的Parti模型也上线了，不过采用了另外一种底层架构。Stability AI的Stable Diffusion模型自2022年发布以来便受到了持续关注，其开源的特性使得许多用户纷纷采用了它。而与DALL-E和MidJourney相比，它可以在大部分用户的硬件上跑而不是仅仅能在云端跑。而就在最近，Stable Diffusion的新版本正式发布，与初代版本相比，它在生成图片的质量和分辨率有了很大提升。类似的软件及公司包括Big Sleep、StarryAI、WOMBO Dream。国内相关软件则包括Timmat，以及百度文心ERNIE-ViLG、小冰框架、悟道文澜、阿里M6等跨模态生成模型。
-![图8]("http://github.com/wangzuzihan/AIGC-/raw/master/8.png")
-![图9]("http://github.com/wangzuzihan/AIGC-/raw/master/9.png")
-![图10]("http://github.com/wangzuzihan/AIGC-/raw/master/10.png")
+![10](https://user-images.githubusercontent.com/118708553/204445879-58a2963c-57d3-4f41-a1d9-c7385f0a4fcb.png)
+![11](https://user-images.githubusercontent.com/118708553/204445901-583052e8-a0e6-47c8-b324-4830642181bc.png)
+![12](https://user-images.githubusercontent.com/118708553/204445939-1d59cf0b-b3df-4a71-b932-db63cb9bfefc.png)
 
 (2)视频、3D领域
 想要生成高质量的内容还有很长的路要走。我们采访过从事影视艺术的创作者，他认为目前AI能做的是部分地代替人类去做重复性的工作，但对于视频和影视创作来说，一方面，数据和算力的制约使得AI目前无法生成连贯和谐的画面，另一方面，像电影和动画这种有很多定制性需求的东西其实很难应用generate AI，因为在画面里，有太多需要控制的，比如微表情、灯光等，很难应用AI生成满意的画面。代表公司/产品方面，2C的包括百度智能视频合成平台 VidPress、慧川智能、Gliacloud、Synths.video、lumen5，2B端代表公司为Pencil。
-![图11]("http://github.com/wangzuzihan/AIGC-/raw/master/11.png")
+
+![13](https://user-images.githubusercontent.com/118708553/204446340-92b824b3-e22e-48a6-b9ba-bf27d23b4899.png)
+
 
 `游戏（Gaming）：`在这方面的梦想是使用自然语言创建复杂的场景或可操纵的模型，这个最终状态可能还有很长一段路要走，但在短期内有更直接的选择，如生成纹理和天空盒艺术（skybox art）。不过生成游戏的前提还是画面和3D/4D的建模，在这方面的差距目前还是很大。而另一种思路是WEB3.0阶段利用社群，使得大家能够贡献自己的GPU、创意、玩法等。目前的代表机构是腾讯 AI Lab（腾讯”绝悟“），其AI通过强化学习的方法来模仿真实玩家，包括发育、运营、协作等指标类别，以及每分钟手速、技能释放频率、命中率、击杀数等具体参数，让AI更接近正式服玩家真实表现，将测试的总体准确性提升到95%。同时还有超参数这家公司，该公司估值已达独角兽，业内率先实现在3D FPS（游戏的帧数）领域的大规模商业化落地，服务对象包括数款千万级日活的游戏产品。rct AI也是杰出的代表，其属于业内较为少见的可以在逻辑侧进行AI生成开发的公司，其核心产品包括个性化且动态的剧情探索、智能NPC/ AI MetaBeings/ 智能环境 ，提供真人般的游戏对抗体验。
 
@@ -91,7 +99,8 @@
 
 一个不完全统计，从图像到语言、以及音乐和其他，市面上叫得出名号的产品已让人眼花缭乱。
 
-![图12]("http://github.com/wangzuzihan/AIGC-/raw/master/12.png")
+![14](https://user-images.githubusercontent.com/118708553/204447184-93498c57-8d65-4644-af35-8ee0fc762b74.png)
+
 
 美国具有代表性的公司
 （1）Open AI：是一个人工智能（AI）研究实验室，由营利组织 OpenAI LP 与母公司非营利组织 OpenAI Inc 所组成，目的是促进和发展友好的人工智能，使人类整体受益。Open AI目前估值超过200亿美金。
