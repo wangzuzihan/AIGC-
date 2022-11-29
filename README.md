@@ -15,8 +15,13 @@
 第1波浪潮：小模型（small models）占主导地位（2015年前），小模型在理解语言方面被认为是“最先进的”。这些小模型擅长于分析任务，可以用于从交货时间预测到欺诈分类等工作。但是，对于通用生成任务，它们的表达能力不够。生成人类级别的写作或代码仍然是一个白日梦。
 第2波浪潮：规模竞赛（2015年-至今），Google Research的一篇里程碑式的论文 Attention is All You Need https://arxiv.org/abs/1706.03762 描述了一种用于自然语言理解的新的神经网络架构，称为transformer，它可以生成高质量的语言模型，同时具有更强的并行性，需要的训练时间更少，同时transformer的应用范围也更加广泛，可以相对容易地在各领域进行定制。
 
-![1](https://user-images.githubusercontent.com/118708553/204441856-b1ee2d36-e6c5-490f-b6eb-c208527ade45.PNG)
-![2](https://user-images.githubusercontent.com/118708553/204441993-dea0d467-e0f8-4a0c-851d-f014746c1a75.JPEG)
+<div align=center>
+<img src="https://user-images.githubusercontent.com/118708553/204441856-b1ee2d36-e6c5-490f-b6eb-c208527ade45.PNG"/>
+</div>
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/118708553/204441993-dea0d467-e0f8-4a0c-851d-f014746c1a75.JPEG"/>
+</div>
 
 
 果不其然，随着模型越来越大，它们开始可以输出达到人类水平的结果，然后是超人的结果。从2015年到2020年，用于训练这些模型的计算量增加了6个数量级，其结果在书写、语音、图像识别、阅读和语言理解方面超过了人类的表现水平。OpenAI的GPT-3表现尤其突出：该模型的性能比GPT-2有了巨大的飞跃，并且从代码生成到笑话编写的任务中都提供了出色的Twitter demo来证明。据我们了解，就在最近，Microsoft已经迭代出了GPT-4，其在提升多轮长对话的表现方面有了更加出色的表现。
@@ -42,7 +47,9 @@
 三、市场格局
 ---
 下面是一个示意图，说明了为每个类别提供动力的平台层，以及将在其上构建的潜在应用程序类型。
-![7](https://user-images.githubusercontent.com/118708553/204446620-0e9b08f4-38d6-4971-915d-eabc8f5f6ff2.png)
+<div align=center>
+<img src="https://user-images.githubusercontent.com/118708553/204446620-0e9b08f4-38d6-4971-915d-eabc8f5f6ff2.png"/>
+</div>
 
 ### 3.1 模型
 `文本（Text）：`是目前最先进的领域，以GPT-3为例，其文本生成能力已被直接应用于Writesonic、 Conversion.ai、 Snazzy AI、 Copysmith、 Copy.ai等文本写作/编辑工具中。另一方面，以transformer架构为重要代表，相关的底层架构仍在不断精进。如今，这些模型在一般的中短篇形式的写作中相当出色(但即便如此，它们通常用于迭代或初稿)。而对话则为文本的另一重要发展方向，具有代表性的是Google的LaMDA、PaLM以及最新发布的GPT-4。
@@ -60,7 +67,10 @@
 `生物领域：`人们于近几年开始关注 AI 和计算机辅助药物设计（CADD）在制药领域的应用，并开始尝试将其应用于实际生产中，其中在小分子制药领域使用较为成熟。AI 和 CADD 相关技术的使用帮助研发者成功缩短研发周期、寻找新的突破方向和降低研发成本，但目前还面临着数据不足、软件/学习门槛高和相关人才缺乏等障碍。除 此之外人们还希望能够在模型准确性、运算速度和算力调用的便捷性上有更多提升。
 
 还有很多其他领域，比如从音频和音乐到化学等等，都在进行基础模型的研发。下面这张图是基本模型进展和相关应用程序成为可能的时间表，其中2025年及以后的部分只是一个猜测。
-![8](https://user-images.githubusercontent.com/118708553/204446980-4a6c8388-f539-4ee0-862a-fcd4a206abca.png)
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/118708553/204446980-4a6c8388-f539-4ee0-862a-fcd4a206abca.png"/>
+</div>
 
 
 ### 3.2 应用程序
@@ -70,7 +80,10 @@
 ·`直行业的写作助手（Vertical specific writing assistants）：`现在大多数写作助手都是通用型的，我们相信为特定的终端市场构建更好的生成式应用程序有着巨大机会，比如从法律合同编写到剧本编写。这里的产品差异化体现在针对特定工作流的模型和UX交互的微调。
 
 `代码生成（Code generation）：`当前的应用程序推动了开发人员的发展，使他们的工作效率大大提高。在安装了Copilot的项目中，它生成了近40%的代码。但更大的机会可能是为C端消费者赋能编程开发能力，学习提示（learning to prompt）可能会成为最终的高级编程语言。
-![9](https://user-images.githubusercontent.com/118708553/204447045-4f7ed247-067d-473a-88b3-8b8975c13f56.png)
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/118708553/204447045-4f7ed247-067d-473a-88b3-8b8975c13f56.png"/>
+</div>
 
 
 艺术生成（Art generation）：整个艺术史和流行文化的世界现在都被编码进了这些大型模型中，这将允许任何人随意探索在以前可能需要花人一辈子的时间才能掌握的主题和风格。
