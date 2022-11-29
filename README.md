@@ -92,7 +92,12 @@
 图片数据在互联网上容易获得，文字生成图片已经是AIGC较为成熟的技术，很多图片的质量比较高，已经达到了可以商用的程度。AIGC的确极大降低了人们的创作门槛，没有经过技法训练的人现在仅凭自己的想法就能方便创造属于自己的作品，在未来这将重塑人们认知艺术的维度。不过就目前来看，其取代一些初级的画家是有可能的，但要取代真正头部的艺术家还是很难的。经过我们的了解，目前文生图发展的趋势是如何生成多轮可持续的高质量的图片，而不仅仅是在某一次生成令人眼前一亮的图片。Open AI在2022年4月迭代出的DALL-E模型使得图片生成的质量有了很大的提升。此后不久，Google研制出了一个基于diffusion model的，几乎有相同生成质量的模型Imagen。
 同时，Google的Parti模型也上线了，不过采用了另外一种底层架构。Stability AI的Stable Diffusion模型自2022年发布以来便受到了持续关注，其开源的特性使得许多用户纷纷采用了它。而与DALL-E和MidJourney相比，它可以在大部分用户的硬件上跑而不是仅仅能在云端跑。而就在最近，Stable Diffusion的新版本正式发布，与初代版本相比，它在生成图片的质量和分辨率有了很大提升。
 类似的软件及公司包括Big Sleep、StarryAI、WOMBO Dream。国内相关软件则包括Timmat，以及百度文心ERNIE-ViLG、小冰框架、悟道文澜、阿里M6等跨模态生成模型。
-![10](https://user-images.githubusercontent.com/118708553/204445879-58a2963c-57d3-4f41-a1d9-c7385f0a4fcb.png)
+
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/118708553/204445879-58a2963c-57d3-4f41-a1d9-c7385f0a4fcb.png"/>
+</div>
+
 ![11](https://user-images.githubusercontent.com/118708553/204445901-583052e8-a0e6-47c8-b324-4830642181bc.png)
 ![12](https://user-images.githubusercontent.com/118708553/204445939-1d59cf0b-b3df-4a71-b932-db63cb9bfefc.png)
 
@@ -128,6 +133,8 @@
 
 （5）Google/Meta/Microsoft：纷纷推出了AIGC的相关模型，正在进行商业化。
 
+<center>
+
 |代表公司|大模型|跨模态|文本|图像|视频和3D|代码|游戏|生物|语音|
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|:--:|:--:|
 |Open AI|     |      |GPT1/GPT2/GPT3均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
@@ -139,6 +146,7 @@
 |Microsoft|||GPT-4/Apache Spark/NÜWA||NÜWA|||||
 |Jasper.AI|||GPT-3|DALL-E2||||||
 
+</center>
 
 四、生成式AI解析
 ---
@@ -184,6 +192,8 @@
 
 百度：目前是国内做大模型做的最好的。
 
+<center>
+
 |代表公司|大模型|文本|图像|语音|视频和3D|代码|生物|
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|
 |华为|盘古|||||CodeGeeX||
@@ -195,8 +205,11 @@
 |腾讯|混元|混元|||混元|
 |字节跳动|veGiantModel/X2-VLM|
 
+</center>
 应用层面：
 
+<center>
+  
 |项目|方向|GO to market|
 |:--:|:--:|:--:|
 |澜舟科技|文字生成|学生/媒体工作者|
@@ -236,7 +249,8 @@
 |诗云科技|虚拟人|2B品牌/电商|
 |百度|虚拟人|2B品牌/电商|
 |搜狗|虚拟人|2B品牌/电商|
-
+  
+</center>
 
 
 
