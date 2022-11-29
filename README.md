@@ -113,10 +113,17 @@
 
 （5）Google/Meta/Microsoft：纷纷推出了AIGC的相关模型，正在进行商业化。
 
-代表公司|大模型|跨模态|文本|图像|视频和3D|代码|游戏|生物|语音|
-|-----|:--:|:--:||:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|代表公司|大模型|跨模态|文本|图像|视频和3D|代码|游戏|生物|语音|
+|:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|:--:|:--:|
 |Open AI|     |      |GPT1/GPT2/GPT3均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
-|Stability AI|
+|Stability AI||||Stable Diffusion/Stable Diffusion2 均开源||||||
+|DeepMind|Chinchilla|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
+|Google|||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
+|Meta|||XLS-R||Make-a-Video|||语言模型||
+|Nvidia|||||Omniverse||||||
+|Microsoft|||GPT-4/Apache Spark/NÜWA||NÜWA|||||
+|Jasper.AI|||GPT-3|DALL-E2||||||
+
 
 四、生成式AI解析
 ---
@@ -161,6 +168,15 @@
 小冰公司：小冰公司作为微软全球首个以中国为总部的人工智能产品线，相关领先技术覆盖自然语言处理、计算机语音、计算机视觉和人工智能内容生成等人工智能领域，估值目前约20亿美元。
 
 百度：目前是国内做大模型做的最好的。
+
+|代表公司|大模型|文本|图像|语音|视频和3D|代码|生物|
+|:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|
+|华为|盘古|||||CodeGeeX||
+|百度|文心|||||||
+|北京智源人工智能研究所|悟道1.0/悟道2.0 均已开源|悟道 文渊/悟道 文汇|悟道 文澜||||悟道 文溯|
+|智谱华章|GLM-130B|||||||
+|小冰公司|第九代小冰|||||||
+
 
 六、困难和挑战
 ---
