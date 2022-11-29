@@ -55,7 +55,7 @@
 
 `视频和3D：`其发展则远远落后，主要原因是视频和3D的数据不像图片那样容易获取，同时视频和3D模型对于算力的要求极高。人们对这些模型的潜力感到兴奋，因为它们可以打开电影、游戏、虚拟现实、建筑和实物产品设计等大型创意市场。
 文字生成视频的浪潮在2022年4月兴起，在9月，Meta和Google的工作使得文字生成视频的质量得到了飞跃。其中Meta创造了基于diffusion model的 Make-a-video，而Google发布了两个模型，一个是基于diffusion model的Imagen，另一个是基于其他foundation model的Phenanki，并且Phenanki可以根据额外的信息动态调整视频。
-而3D领域的主要模型为NerF，目前进展较为缓慢。Maigc3DNvidia Dreamfusion Google
+而3D领域的主要模型为NerF，目前进展较为缓慢。而最近Nvidia提出的Maigc3D模型 Dreamfusion Google
 
 `生物领域：`人们于近几年开始关注 AI 和计算机辅助药物设计（CADD）在制药领域的应用，并开始尝试将其应用于实际生产中，其中在小分子制药领域使用较为成熟。AI 和 CADD 相关技术的使用帮助研发者成功缩短研发周期、寻找新的突破方向和降低研发成本，但目前还面临着数据不足、软件/学习门槛高和相关人才缺乏等障碍。除 此之外人们还希望能够在模型准确性、运算速度和算力调用的便捷性上有更多提升。
 
@@ -119,10 +119,10 @@
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|:--:|:--:|
 |Open AI|     |      |GPT1/GPT2/GPT3均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
 |Stability AI||||Stable Diffusion/Stable Diffusion2 均开源||||||
-|DeepMind|Chinchilla|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
+|DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
 |Google|||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
-|Meta|||XLS-R||Make-a-Video|||语言模型||
-|Nvidia|||||Omniverse||||||
+|Meta|AV-HuBERT/Data2vec||XLS-R||Make-a-Video|||语言模型||
+|Nvidia|PoE GAN||||Omniverse||||||
 |Microsoft|||GPT-4/Apache Spark/NÜWA||NÜWA|||||
 |Jasper.AI|||GPT-3|DALL-E2||||||
 
