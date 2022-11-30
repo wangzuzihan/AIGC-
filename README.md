@@ -137,14 +137,15 @@
 
 |代表公司|大模型|跨模态|文本|图像|视频和3D|代码|游戏|生物|语音|
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|:--:|:--:|
-|Open AI|     |      |GPT1/GPT2/GPT3均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
-|Stability AI||||Stable Diffusion/Stable Diffusion2 均开源||||||
+|Open AI|     |  CLIP    |GPT1/GPT2/GPT3 均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
+|Stability AI||CLIP||Stable Diffusion/Stable Diffusion2 均开源||||||
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
-|Google|||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
+|Google|BERT||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
 |Meta|AV-HuBERT/Data2vec||XLS-R||Make-a-Video|||语言模型||
-|Nvidia|PoE GAN||||Omniverse||||||
+|Nvidia|PoE GAN/Megatron||||Omniverse/Magic 3D||||||
 |Microsoft|||GPT-4/Apache Spark/NÜWA||NÜWA|||||
 |Jasper.AI|||GPT-3|DALL-E2||||||
+|Midjourney||CLIP|Stble Diffusion||
 
 </center>
 
@@ -198,12 +199,15 @@
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|
 |华为|盘古|||||CodeGeeX||
 |百度|文心|ERNIE-M/ERNIE 3.0/PLATO/ERNIE-IE|VIMER-Image|ERNIE-ViLG/ERNIE-FAT|VIMER-Video|||
-|北京智源人工智能研究所|悟道1.0/悟道2.0 均已开源|悟道 文渊/悟道 文汇|悟道 文澜||||悟道 文溯|
+|北京智源人工智能研究所|悟道1.0/悟道2.0 均已开源|悟道 文渊/悟道 文汇|悟道 文澜/AltDiffusion||||悟道 文溯|
 |智谱华章|GLM-130B|||||||
 |小冰公司|第九代小冰|||||||
 |阿里巴巴|M6|M6|M6|||||
 |腾讯|混元|混元|||混元|
 |字节跳动|veGiantModel/X2-VLM|
+|IDEA|二郎神/周文王/燃灯/比干/闻仲|二郎神/周文王/燃灯/比干/闻仲||||||余元|
+|西湖星辰|ALBERT|ALBERT
+|澜洲科技|
 
 </center>
 应用层面：
@@ -220,6 +224,10 @@
 |沃沃AI人工智能写作|文字生成|学生/媒体工作者/作家|
 |6 pen|文生图|创作者/大学生|
 |ZMO|文生图|创作者/电商|
+|万兴AI绘画|文生图|创作者+社区|
+|中文在线|文生图|创作者|
+|洞天数藏|文生图|创作者+2B品牌|
+|VCG AILab|图生图|创作者|
 |百度文心 ERNIE-ViLG|文生图|创作者|
 |盗梦者|文生图|创作者/2B品牌|
 |Timmat|文生图|2B品牌+社区|
@@ -247,6 +255,7 @@
 |网易伏羲|虚拟人|2B品牌/电商|
 |火山引擎|虚拟人|2B品牌/电商|
 |诗云科技|虚拟人|2B品牌/电商|
+|蓝色光标|虚拟人|2B品牌/电商|
 |百度|虚拟人|2B品牌/电商|
 |搜狗|虚拟人|2B品牌/电商|
   
