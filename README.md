@@ -142,8 +142,8 @@
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
 |Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
 |Meta|AV-HuBERT/Data2vec／OPT-175B||XLS-R||Make-a-Video|||语言模型||
-|Nvidia|PoE GAN/Megatron||||Omniverse/Magic 3D||||||
-|Microsoft|||GPT-4/Apache Spark/NÜWA||NÜWA|NÜWA||||
+|Nvidia|PoE GAN/Megatron-Turing||||Omniverse/Magic 3D||||||
+|Microsoft|Megatron-Turing||GPT-4/Apache Spark/NÜWA||NÜWA|NÜWA||||
 |Jasper.AI|||GPT-3|DALL-E2||||||
 |Midjourney||CLIP|Stble Diffusion||
 
@@ -203,7 +203,7 @@
 |智谱华章|GLM-130B|||||||
 |小冰公司|第九代小冰|||||||
 |阿里巴巴|M6／PLUG|M6|LC-BLSTM／DFSMN-CTC||||
-|腾讯|混元|GFP-GAN|TLC-BLSTM||||GROVER／GCN-MF|
+|腾讯|混元|GFP-GAN|TLC-BLSTM|NLP||GROVER／GCN-MF|
 |字节跳动|veGiantModel/X2-VLM|
 |IDEA|二郎神/周文王/燃灯/闻仲|太乙 Stable Diffusion|||||
 |西湖心辰|ALBERT|改进的Stable Diffusion|
