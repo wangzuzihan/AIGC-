@@ -197,16 +197,16 @@
 
 |代表公司|文本|图像|语音|视频和3D|代码|生物|
 |:-----:|:---:|:--:|:--:|:-----:|:--:|:--:|
-|华为|盘古|||||CodeGeeX||
-|百度|文心|ERNIE-M/ERNIE 3.0/PLATO/ERNIE-IE|VIMER-Image|ERNIE-ViLG/ERNIE-FAT|VIMER-Video|||
-|北京智源人工智能研究所|悟道1.0/悟道2.0 均已开源|悟道 文渊/悟道 文汇|悟道 文澜/AltDiffusion||||悟道 文溯|
+|华为|盘古|盘古||DNN|CodeGeeX|盘古|
+|百度|ERNIE-M/ERNIE 3.0/PLATO/ERNIE-IE|VIMER-Image|ERNIE-ViLG/ERNIE-FAT|VIMER-Video||GEM|
+|北京智源人工智能研究所|悟道 文渊/悟道 文汇|悟道 文澜/AltDiffusion|悟道2.0|||悟道 文溯|
 |智谱华章|GLM-130B|||||||
 |小冰公司|第九代小冰|||||||
-|阿里巴巴|M6|M6|M6|||||
-|腾讯|混元|混元|||混元|
+|阿里巴巴|M6|M6|||||
+|腾讯|混元|||混元|
 |字节跳动|veGiantModel/X2-VLM|
 |IDEA|二郎神/周文王/燃灯/比干/闻仲|二郎神/周文王/燃灯/比干/闻仲||||||余元|
-|西湖星辰|ALBERT|ALBERT
+|西湖星辰|ALBERT|ALBERT|
 |澜洲科技|
 
 </div>
