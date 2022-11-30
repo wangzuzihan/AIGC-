@@ -140,7 +140,7 @@
 |Open AI|     |  CLIP    |GPT1/GPT2/GPT3 均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
 |Stability AI||CLIP||Stable Diffusion/Stable Diffusion2 均开源||||||
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
-|Google|BERT||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
+|Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
 |Meta|AV-HuBERT/Data2vec||XLS-R||Make-a-Video|||语言模型||
 |Nvidia|PoE GAN/Megatron||||Omniverse/Magic 3D||||||
 |Microsoft|||GPT-4/Apache Spark/NÜWA||NÜWA|||||
@@ -207,7 +207,7 @@
 |字节跳动|veGiantModel/X2-VLM|
 |IDEA|二郎神/周文王/燃灯/闻仲|太乙 Stable Diffusion|||||
 |西湖心辰|ALBERT|改进的Stable Diffusion|
-|澜舟科技|孟子|
+|澜舟科技|孟子|孟子|
 
 </div>
 应用层面：
@@ -217,7 +217,7 @@
 |项目|方向|GO to market|
 |:--:|:--:|:--:|
 |秘塔|文本编辑|C端/B端|
-|澜舟科技|文字生成|学生/文字工作者|
+|澜舟科技|文字生成|学生/文字工作者/2B品牌|
 |FridayAI|文字生成|2B品牌+文字工作者|
 |写作猫|文字生成|学生/媒体工作者|
 |Gliso写作机器人|文字生成|学生/文字工作者|
