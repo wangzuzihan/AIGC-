@@ -203,7 +203,7 @@
 |智谱华章|GLM-130B|||||||
 |小冰公司|第九代小冰|||||||
 |阿里巴巴|M6／PLUG|M6|LC-BLSTM／DFSMN-CTC||||
-|腾讯|混元|||混元|
+|腾讯|混元|GFP-GAN|TLC-BLSTM||||GROVER／GCN-MF|
 |字节跳动|veGiantModel/X2-VLM|
 |IDEA|二郎神/周文王/燃灯/闻仲|太乙 Stable Diffusion|||||
 |西湖心辰|ALBERT|改进的Stable Diffusion|
