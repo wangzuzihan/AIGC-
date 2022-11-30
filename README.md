@@ -141,9 +141,9 @@
 |Stability AI||CLIP||Stable Diffusion/Stable Diffusion2 均开源||||||
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
 |Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
-|Meta|AV-HuBERT/Data2vec||XLS-R||Make-a-Video|||语言模型||
+|Meta|AV-HuBERT/Data2vec／OPT-175B||XLS-R||Make-a-Video|||语言模型||
 |Nvidia|PoE GAN/Megatron||||Omniverse/Magic 3D||||||
-|Microsoft|||GPT-4/Apache Spark/NÜWA||NÜWA|||||
+|Microsoft|||GPT-4/Apache Spark/NÜWA||NÜWA|NÜWA||||
 |Jasper.AI|||GPT-3|DALL-E2||||||
 |Midjourney||CLIP|Stble Diffusion||
 
