@@ -140,9 +140,9 @@
 |Open AI|GPT-3| CLIP |GPT1/GPT2/GPT3 均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
 |Stability AI|Stable Diffusion|CLIP||Stable Diffusion/Stable Diffusion2 均开源||||||
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
-|Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
+|Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki/DreamFusion|||||
 |Meta|AV-HuBERT/Data2vec／OPT-175B||XLS-R||Make-a-Video|||语言模型||
-|Nvidia|PoE GAN/Megatron-Turing||||Omniverse/Magic 3D||||||
+|Nvidia|PoE GAN/Megatron-Turing||BERT/DistillBERT||Omniverse/Magic 3D/NeRF||||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
 |Microsoft|Megatron-Turing||GPT-4/Apache Spark/NÜWA||NÜWA|NÜWA||||
 |Jasper.AI|GPT-3||GPT-3|DALL-E2||||||
 |Midjourney|CLIP/Stable Diffusion|CLIP|Stble Diffusion||
