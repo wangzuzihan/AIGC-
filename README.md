@@ -197,7 +197,7 @@
 
 |代表公司|文本|图像|语音|视频和3D|代码|生物|
 |:-----:|:---:|:--:|:--:|:-----:|:--:|:--:|
-|华为|盘古|盘古||DNN|CodeGeeX|盘古|
+|华为|盘古|盘古|盘古|DNN|CodeGeeX|盘古|
 |百度|ERNIE-M/ERNIE-Layout/PLATO/ERNIE-IE/ERNIE-Search/ERNIE-UIE/ERNIE 3.0/ERNIE 3.0Zeus/鹏城-百度文心|VIMER-Image/ERNIE-ViLG|ERNIE-SAT|VIMER-Video|ERNIE-Code|Helix-GEM/Helix-Fold/Helix-FoldSingle|
 |北京智源人工智能研究所|悟道 文渊/悟道 文汇 全部开源|悟道 文澜/AltDiffusion|悟道2.0 开源|||悟道 文溯 开源|
 |智谱华章|GLM-130B|CogVideo||||||
@@ -210,7 +210,8 @@
 |澜舟科技|孟子|孟子|
 
 </div>
-应用层面：
+
+以上是模型层面的梳理，而关于具体应用层面，我们按照模态，从文本、图像、视频和3D、游戏领域进行了梳理：
 
 <div align=center>
   
