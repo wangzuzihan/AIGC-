@@ -137,15 +137,15 @@
 
 |代表公司|大模型|跨模态|文本|图像|视频和3D|代码|游戏|生物|语音|
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|:--:|:--:|
-|Open AI|     |  CLIP    |GPT1/GPT2/GPT3 均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
-|Stability AI||CLIP||Stable Diffusion/Stable Diffusion2 均开源||||||
+|Open AI|GPT-3| CLIP |GPT1/GPT2/GPT3 均开源|DALL-E/DALL-E2||Codex 未开源|Gym Retro/Open AI five| | |
+|Stability AI|Stable Diffusion|CLIP||Stable Diffusion/Stable Diffusion2 均开源||||||
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
 |Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki|||||
 |Meta|AV-HuBERT/Data2vec／OPT-175B||XLS-R||Make-a-Video|||语言模型||
 |Nvidia|PoE GAN/Megatron-Turing||||Omniverse/Magic 3D||||||
 |Microsoft|Megatron-Turing||GPT-4/Apache Spark/NÜWA||NÜWA|NÜWA||||
-|Jasper.AI|||GPT-3|DALL-E2||||||
-|Midjourney||CLIP|Stble Diffusion||
+|Jasper.AI|GPT-3||GPT-3|DALL-E2||||||
+|Midjourney|CLIP/Stable Diffusion|CLIP|Stble Diffusion||
 
 </div>
 
@@ -177,6 +177,7 @@
 五、中国的AIGC
 ---
 与美国相比，中国AIGC行业还处于起步阶段，难以出现能够媲美Open.AI的公司。通过我们和从事AIGC的华人工作人员的访谈，总结出以下原因：
+
 `（1）中国厂商投入不够。`企业层面做AIGC的主要是中国的大厂，例如百度、华为等，这些企业目前主要考虑的如何降本增效，AIGC业务需要各部门的协调，而各部门由于竞争关系导致内耗较多，因此在这块业务投入不多。而代表政府的机构，如北京智源研究院，其投入约为10亿元，而Open.AI的累计投入超过20亿美元。
 
 `（2）科学家和人才密度不够。`中国缺少做AIGC方向的顶级学者，同时人才交叉密度也和美国相比有较大差距。在美国，例如Deepmind.AI 研发团队超过800人，各个学科的PHD都有。而国内缺乏AI的领军人物，有一定知名度的学者也大都不写论文不带人才了。同时中国的人才交叉密度目前仍不足。最后在创业领域，据我们了解，中国做Nerf和diffusion model的科学家有一波人出来创业了，但是他们普遍缺乏对产品的思考，而目前拥有产品管理经验的人缺少技术，因此如果能将二者结合到一起会是一个好的机会。
@@ -184,7 +185,7 @@
 
 `（3）资本的耐心不够。`中国的资本比较缺乏耐心，会要求被投企业很快有回报。但AIGC需要投入很多研发成本，需要很多模型和算法的迭代与优化，发论文在资本眼里是不make sense的。
 
-基于此，中国的AIGC有很大的发展潜力，值得资本的关注。
+机遇与挑战总是并存的，诚然中国发展AIGC还有诸多困难，但是其市场潜力巨大，
 
 北京智源研究院：北京智源人工智能研究院（Beijing Academy of Artificial Intelligence，BAAI）是人工智能领域的新型研发机构。2018年11月14日在科技部和北京市支持下，依托北京大学、清华大学、中国科学院、百度、小米、字节跳动、美团点评、旷视科技等北京人工智能领域优势单位共建的新型研究机构。
 智谱华章：简称智谱AI，成立于2019年，由清华大学计算机系知识工程实验室的技术成果转化而来，于9月获得数亿元人民币的B轮融资。
