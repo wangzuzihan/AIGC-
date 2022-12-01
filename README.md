@@ -198,9 +198,9 @@
 |代表公司|文本|图像|语音|视频和3D|代码|生物|
 |:-----:|:---:|:--:|:--:|:-----:|:--:|:--:|
 |华为|盘古|盘古||DNN|CodeGeeX|盘古|
-|百度|ERNIE-M/ERNIE 3.0/PLATO/ERNIE-IE|VIMER-Image|ERNIE-ViLG/ERNIE-FAT|VIMER-Video||GEM|
+|百度|ERNIE-M/ERNIE-Layout/PLATO/ERNIE-IE/ERNIE-Search/ERNIE-UIE/ERNIE 3.0/ERNIE 3.0Zeus/鹏城-百度文心|VIMER-Image/ERNIE-ViLG|ERNIE-SAT|VIMER-Video|ERNIE-Code|Helix-GEM/Helix-Fold/Helix-FoldSingle|
 |北京智源人工智能研究所|悟道 文渊/悟道 文汇 全部开源|悟道 文澜/AltDiffusion|悟道2.0 开源|||悟道 文溯 开源|
-|智谱华章|GLM-130B|||||||
+|智谱华章|GLM-130B|CogVideo||||||
 |小冰公司|第九代小冰|||||||
 |阿里巴巴|M6／PLUG|M6|LC-BLSTM／DFSMN-CTC||||
 |腾讯|混元|GFP-GAN|TLC-BLSTM|NLP||GROVER／GCN-MF|
@@ -217,6 +217,7 @@
 |项目|方向|GO to market|
 |:--:|:--:|:--:|
 |秘塔|文本编辑|C端/B端|
+|Xiaomingbot|文字生成|文字工作者|
 |澜舟科技|文字生成|学生/文字工作者/2B品牌|
 |FridayAI|文字生成|2B品牌+文字工作者|
 |写作猫|文字生成|学生/媒体工作者|
