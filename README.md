@@ -138,7 +138,7 @@
 |代表公司|大模型|跨模态|文本|图像|视频和3D|代码|游戏|生物|语音|
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|:--:|:--:|
 |Open AI|GPT-3| CLIP |GPT1/GPT2/GPT3 均开源/ChatGPT|DALL-E/DALL-E2|IDM/VPT|Codex 未开源|Gym Retro/Open AI five| | Whisper|
-|Stability AI|Stable Diffusion|CLIP||Stable Diffusion/Stable Diffusion2 均开源||||||
+|Stability AI|Stable Diffusion|CLIP|GPT|Stable Diffusion/Stable Diffusion2 均开源 Stable Inpainting||||Diffusion Model||
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
 |Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki/DreamFusion||PaLM|Transformer||
 |Meta|AV-HuBERT/Data2vec／OPT-175B||XLS-R||Make-a-Video|||语言模型||
