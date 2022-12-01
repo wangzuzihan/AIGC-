@@ -142,7 +142,7 @@
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
 |Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki/DreamFusion|||||
 |Meta|AV-HuBERT/Data2vec／OPT-175B||XLS-R||Make-a-Video|||语言模型||
-|Nvidia|PoE GAN/Megatron-Turing||BERT/DistillBERT||Omniverse/Magic 3D/NeRF||||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
+|Nvidia|PoE GAN/Megatron-Turing||BERT/DistillBERT||Omniverse/Magic 3D/NeRF/GET3D||MineCLIP||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
 |Microsoft|Megatron-Turing||GPT-4/Apache Spark/NÜWA||NÜWA|NÜWA||||
 |Jasper.AI|GPT-3||GPT-3|DALL-E2||||||
 |Midjourney|CLIP/Stable Diffusion|CLIP|Stble Diffusion||
