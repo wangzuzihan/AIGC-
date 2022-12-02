@@ -142,8 +142,8 @@
 |DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver|Pythia/Ithaca|NFNet-F3,|MuZero|Alpha Code|Alpha Star/DQN|Alpha Fold|WaveNet|
 |Google|BERT／T5|T5|LaMDA/PALM|Imagen/Parti/Dreambooth/Re-Imagen|Imagen Video/Phenaki/DreamFusion||PaLM|Transformer||
 |Meta|AV-HuBERT/Data2vec／OPT-175B|RA-CM3|XLS-R/Sphere/RA-CM3|RA-CM3|Make-a-Video||Cicero|Masked Language Model|Meta-StyleSpeech|
-|Nvidia|PoE GAN/Megatron-Turing|PoE GAN|BERT/DistillBERT||Omniverse/Magic 3D/NeRF/GET3D||MineCLIP||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
-|Microsoft|Megatron-Turing|Microsoft-Turing|GPT-4/Apache Spark/NÜWA||NÜWA|NÜWA||Analyzer|Uni-TTSv4|
+|Nvidia|PoE GAN/Megatron-Turing|PoE GAN|BERT/DistillBERTG|GauGAN/GauGAN2|Omniverse/Magic 3D/NeRF/GET3D||MineCLIP||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
+|Microsoft|Megatron-Turing|Microsoft-Turing|GPT-4/Apache Spark/NÜWA|CoModGAN|NÜWA|NÜWA||Analyzer|Uni-TTSv4|
 |Jasper.AI|GPT-3||GPT-3|DALL-E2|GPT|||||
 |Midjourney|CLIP/Stable Diffusion|CLIP|Stble Diffusion||
 
