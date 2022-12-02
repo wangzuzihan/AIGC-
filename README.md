@@ -139,10 +139,10 @@
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|:--:|:--:|
 |Open AI|GPT-3| CLIP |GPT1/GPT2/GPT3 均开源/ChatGPT|DALL-E/DALL-E2|IDM/VPT|Codex 未开源|Gym Retro/Open AI five| | Whisper|
 |Stability AI|Stable Diffusion|CLIP|GPT|Stable Diffusion/Stable Diffusion2 均开源 Stable Inpainting||||Diffusion Model||
-|DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver||||Alpha Code|Alpha Star|Alpha Fold|WaveNet|
-|Google|BERT／T5||LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki/DreamFusion||PaLM|Transformer||
+|DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver|Pythia/Ithaca|NFNet-F3,|MuZero|Alpha Code|Alpha Star/DQN|Alpha Fold|WaveNet|
+|Google|BERT／T5|T5|LaMDA/PALM|Imagen/Parti/Dreambooth|Imagen Video/Phenaki/DreamFusion||PaLM|Transformer||
 |Meta|AV-HuBERT/Data2vec／OPT-175B||XLS-R||Make-a-Video|||语言模型||
-|Nvidia|PoE GAN/Megatron-Turing||BERT/DistillBERT||Omniverse/Magic 3D/NeRF/GET3D||MineCLIP||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
+|Nvidia|PoE GAN/Megatron-Turing|PoE GAN|BERT/DistillBERT||Omniverse/Magic 3D/NeRF/GET3D||MineCLIP||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
 |Microsoft|Megatron-Turing|Microsoft-Turing|GPT-4/Apache Spark/NÜWA||NÜWA|NÜWA||Analyzer|Uni-TTSv4|
 |Jasper.AI|GPT-3||GPT-3|DALL-E2||||||
 |Midjourney|CLIP/Stable Diffusion|CLIP|Stble Diffusion||
