@@ -145,7 +145,7 @@ AGI的展望、中美学者对AIGC的不同态度、AI的民主化以及游戏�
 |Google|BERT／T5/CANINE/Decision Transformer/ELECTRA/MT5/Pegasus/PEGASUS-X/REALM/Reformer/RemBERT/Transformer-XL/UL2/XLNet |T5/T5v1.1 |LaMDA/PALM/ALBERT/BERT/BigBird/OWL-ViT|Imagen/Parti/Dreambooth/Re-Imagen/ViT|Imagen Video/Phenaki/DreamFusion||PaLM|Transformer||
 |Meta|AV-HuBERT/Data2vec/BART／OPT-175B/Decision Transformer/DETR/FLAVA/OPT/RoBERTa |RA-CM3/BART/CamemBERT/Data2Vec/SpeechToTextTransformer/SpeechToTextTransformer2 |XLS-R/Sphere/RA-CM3/BlenderbotSmall/Blenderbot/CamemBERT/DPR/M2M100/NLLB/RAG/XGLM/XLM |RA-CM3/ConvNeXT/DeiT/LeViT/ViTMAE|Make-a-Video||Cicero|Masked Language Model/ESM|Meta-StyleSpeech/Hubert/M-CTC-T/Wav2Vec2/Wav2Vec2-Conformer/Wav2Vec2Phoneme/WavLM |
 |Nvidia|PoE GAN/Megatron-Turing|PoE GAN|BERT/DistillBERTG/GroupViT/Megatron-BERT/SegFormer/Megatron-BERT2|GauGAN/GauGAN2|Omniverse/Magic 3D/NeRF/GET3D||MineCLIP||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
-|Microsoft|Megatron-Turing/DeBERTa/MarkupLM/MPNet/ProphetNet/Swin Transformer/Swin Transformer V2/XLM-ProphetNet |Microsoft-Turing/DiT/LayoutLM/TrOCR|GPT-4/Apache Spark/NÜWA/DialoGPT|CoModGAN/BEit/CvT/NÜWA/ResNet|NÜWA/X-CLIP||Analyzer|Uni-TTSv4/UniSpeech/UniSpeechSat|
+|Microsoft|Megatron-Turing/DeBERTa/MarkupLM/MPNet/ProphetNet/Swin Transformer/Swin Transformer V2/XLM-ProphetNet |Microsoft-Turing/DiT/LayoutLM/TrOCR/Vector Quantized Diffusion Mode|GPT-4/Apache Spark/NÜWA/DialoGPT|CoModGAN/BEit/CvT/NÜWA/ResNet|NÜWA/X-CLIP||Analyzer|Uni-TTSv4/UniSpeech/UniSpeechSat|
 |Jasper.AI|GPT-3||GPT-3|DALL-E2|GPT|||||
 |Midjourney|CLIP/Stable Diffusion|CLIP|Stble Diffusion||
 |BigScience workshop|||BLOOM
