@@ -309,9 +309,15 @@ Mitchell 作为其首席伦理科学家。哈佛大学的高级研究员 Joaquin
 七、未来会发生什么
 ---
 GPT4的信息、chatGPT的未来以及中美AIGC的差异
-(1)就在最近，我们获得了关于GPT4的最新消息。GPT4模型是一个基于MoE架构的超大模型，参数量是GPT3的30倍！目前可以预知的是其能超过图灵测试，在推理过程中消耗的资源和算力并不会比GPT3大多少，甚至很有可能是一样的。从Open AI的CEO Sam Altman最近也在推特上说：”Language interfaces are going to be a big deal, I thik."
-![SA](https://user-images.githubusercontent.com/118708553/205486319-23df3ef7-36c3-4229-83b1-899d72c501bd.jpg)
 
+`(1)就在最近，我们获得了关于GPT4的最新消息。`GPT4模型是一个基于MoE架构的超大模型，参数量是GPT3的30倍！目前可以预知的是其能超过图灵测试，在推理过程中消耗的资源和算力并不会比GPT3大多少，甚至很有可能是一样的。Open AI一直看好通用语言模型的发展，从其过去发布的GPT系列模型就可看出这一趋势。最近Open AI的CEO Sam Altman也在推特上说：”Language interfaces are going to be a big deal, I thik."
+
+![SA](https://user-images.githubusercontent.com/118708553/205486319-23df3ef7-36c3-4229-83b1-899d72c501bd.jpg)
+今年的一个明显感受就是，通用领域的玩家下场搞垂直赛道真的是降维打击。这也反映了以往对话领域的困境：令对话系统取得飞跃式进展的技术几乎都来自通用领域（大规模预训练、检索增强等），想搞真正有用的创新只能从数据层面入手。当数据的优势也失去后，便难有招架之力了。
+
+由此我们也可以去推演偏通用性的语言会发生在什么样的场景里边，比如说AI教育、AI助理、AI陪伴这些垂直领域，这些方向都是非常值得关注的。
+
+`(2)chatGPT的未来。`
 
 
 
