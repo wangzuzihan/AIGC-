@@ -139,11 +139,11 @@
 |:-----:|:----:|:---:|:--:|:--:|:-----:|:--:|:--:|:--:|:--:|
 |Open AI|GPT-3| CLIP |GPT1/GPT2/GPT3 均开源/ChatGPT|DALL-E/DALL-E2|IDM/VPT|Codex 未开源|Gym Retro/Open AI five| | Whisper|
 |Stability AI|Stable Diffusion|CLIP|GPT|Stable Diffusion/Stable Diffusion2 均开源 Stable Inpainting||||Diffusion Model||
-|DeepMind|Chinchilla/Gato|Flamingo/NFNets/Preceirver|Pythia/Ithaca|NFNet-F3,|MuZero|Alpha Code|Alpha Star/DQN|Alpha Fold|WaveNet|
-|Google|BERT／T5/CANINE/Decision Transformer/ELECTRA |T5|LaMDA/PALM/ALBERT/BERT/BigBird|Imagen/Parti/Dreambooth/Re-Imagen|Imagen Video/Phenaki/DreamFusion||PaLM|Transformer||
-|Meta|AV-HuBERT/Data2vec/BART／OPT-175B/Decision Transformer/DETR/FLAVA |RA-CM3/BART/CamemBERT/Data2Vec |XLS-R/Sphere/RA-CM3/BlenderbotSmall/Blenderbot/CamemBERT/DPR  |RA-CM3/ConvNeXT/DeiT|Make-a-Video||Cicero|Masked Language Model/ESM|Meta-StyleSpeech/Hubert |
-|Nvidia|PoE GAN/Megatron-Turing|PoE GAN|BERT/DistillBERTG/GroupViT|GauGAN/GauGAN2|Omniverse/Magic 3D/NeRF/GET3D||MineCLIP||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
-|Microsoft|Megatron-Turing/DeBERTa|Microsoft-Turing/DiT/LayoutLM|GPT-4/Apache Spark/NÜWA/DialoGPT|CoModGAN/BEit/CvT|NÜWA|NÜWA||Analyzer|Uni-TTSv4|
+|DeepMind|Chinchilla/Gato/Perceiver IO|Flamingo/NFNets/Preceirver|Pythia/Ithaca|NFNet-F3,|MuZero|Alpha Code|Alpha Star/DQN|Alpha Fold|WaveNet|
+|Google|BERT／T5/CANINE/Decision Transformer/ELECTRA/MT5/Pegasus/PEGASUS-X/REALM/Reformer/RemBERT/Transformer-XL/UL2 |T5/T5v1.1 |LaMDA/PALM/ALBERT/BERT/BigBird/OWL-ViT|Imagen/Parti/Dreambooth/Re-Imagen/ViT|Imagen Video/Phenaki/DreamFusion||PaLM|Transformer||
+|Meta|AV-HuBERT/Data2vec/BART／OPT-175B/Decision Transformer/DETR/FLAVA/OPT/RoBERTa |RA-CM3/BART/CamemBERT/Data2Vec/SpeechToTextTransformer/SpeechToTextTransformer2 |XLS-R/Sphere/RA-CM3/BlenderbotSmall/Blenderbot/CamemBERT/DPR/M2M100/NLLB/RAG/XGLM/XLM |RA-CM3/ConvNeXT/DeiT/LeViT/ViTMAE|Make-a-Video||Cicero|Masked Language Model/ESM|Meta-StyleSpeech/Hubert/M-CTC-T/Wav2Vec2/Wav2Vec2-Conformer/Wav2Vec2Phoneme/WavLM |
+|Nvidia|PoE GAN/Megatron-Turing|PoE GAN|BERT/DistillBERTG/GroupViT/Megatron-BERT/SegFormer/Megatron-BERT2|GauGAN/GauGAN2|Omniverse/Magic 3D/NeRF/GET3D||MineCLIP||QODA|Conformer-CTC/Citrinet/Jasper/QuartNnet/Vocoders/Mel Spectrogram Generators|
+|Microsoft|Megatron-Turing/DeBERTa/MarkupLM/MPNet/ProphetNet/Swin Transformer/Swin Transformer V2/XLM-ProphetNet |Microsoft-Turing/DiT/LayoutLM/TrOCR|GPT-4/Apache Spark/NÜWA/DialoGPT|CoModGAN/BEit/CvT/NÜWA/ResNet|NÜWA/X-CLIP||Analyzer|Uni-TTSv4/UniSpeech/UniSpeechSat|
 |Jasper.AI|GPT-3||GPT-3|DALL-E2|GPT|||||
 |Midjourney|CLIP/Stable Diffusion|CLIP|Stble Diffusion||
 |BigScience workshop|||BLOOM
