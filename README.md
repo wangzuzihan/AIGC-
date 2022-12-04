@@ -1,5 +1,4 @@
 # AIGC行研
-`GPT4的信息、chatGPT的未来以及中美AIGC的差异`
 一、导语
 ---
 人类擅长分析事物，而机器在这方面甚至做得就更好了。机器可以分析一组数据，并在其中找到许多用例（use case）的模式，无论是欺诈还是垃圾邮件检测，预测你的发货时间或预测该给你看哪个TikTok视频，它们在这些任务中变得越来越聪明。这被称为“分析型AI（Analytical AI）”，或传统AI。
@@ -310,7 +309,9 @@ Mitchell 作为其首席伦理科学家。哈佛大学的高级研究员 Joaquin
 七、未来会发生什么
 ---
 GPT4的信息、chatGPT的未来以及中美AIGC的差异
-(1)就在最近，我们获得了关于GPT4的最新消息。GPT4模型是一个基于MoE架构的超大模型，参数量是GPT3的30倍！目前可以预知的是其能超过图灵测试，在推理过程中消耗的资源和算力并不会比GPT3大多少，甚至很有可能是一样的。
+(1)就在最近，我们获得了关于GPT4的最新消息。GPT4模型是一个基于MoE架构的超大模型，参数量是GPT3的30倍！目前可以预知的是其能超过图灵测试，在推理过程中消耗的资源和算力并不会比GPT3大多少，甚至很有可能是一样的。从Open AI的CEO Sam Altman最近也在推特上说：”Language interfaces are going to be a big deal, I thik."
+![SA](https://user-images.githubusercontent.com/118708553/205486319-23df3ef7-36c3-4229-83b1-899d72c501bd.jpg)
+
 
 
 
