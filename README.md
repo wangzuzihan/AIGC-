@@ -278,22 +278,13 @@
 |模型|类型|架构|参数|数据|性能|
 |:----|:----|:----|:----|:----|:----|
 |Google：PaLM|语言模型|基于Transformer的dense decoder-only模型|540 B|多语言和GitHub代码数据集|语言理解和生成的合理性，代码相关任务相比LaMDA，GLaM都有很大提升|
-|OpenAI：ChatGPT/GPT4|语言模型|ChatGPT：RLHF
-GPT4:MoE RLHF|ChatGPT: 暂时不知道（GPT4的一部分能力露出）
-GPT 4至少是5250billion（30x GPT3）也有说法是100 Trillion（https://towardsdatascience.com/gpt-4-will-have-100-trillion-parameters-500x-the-size-of-gpt-3-582b98d82253）|ChatGPT：多语言和GitHub代码数据集
-GPT 4：多语言和GitHub代码数据集|ChatGPT：对话任务中alignment最好的模型
-GPT4：多轮长对话表现很好，inference time对比GPT3不增加，推理时间不增加|
+|OpenAI：ChatGPT/GPT4|语言模型|ChatGPT：RLHF GPT4:MoE RLHF|ChatGPT: 暂时不知道（GPT4的一部分能力露出）GPT 4至少是5250billion（30x GPT3）也有说法是100 Trillion（https://towardsdatascience.com/gpt-4-will-have-100-trillion-parameters-500x-the-size-of-gpt-3-582b98d82253） |ChatGPT：多语言和GitHub代码数据集 GPT 4：多语言和GitHub代码数据集|ChatGPT：对话任务中alignment最好的模型 GPT4：多轮长对话表现很好，inference time对比GPT3不增加，推理时间不增加|
 |智源/华章：GLM-130B|语言模型|通用语言双向稠密模型|130B|4000 亿个文本标识符（中文和英文各 2000 亿）|精度高（https://new.qq.com/rain/a/20220905A0651E00）|
-| | | | | | |
-|Google：DreamBooth|文生图模型|Diffusion模型| |开源数据包括：Leion以及谷歌自己的数据|弥补stable diffusion无法生成特定个人图像的缺陷（https://zh.wikipedia.org/wiki/DreamBooth）|
-|百度：ERNIE-ViILG|文生图模型|Transformer|10B|开源数据包括：Leion以及百度自己的数据|引入知识图谱，提升了学习效率及可解释性；更准确理解中文表达
-击败stable diffusion、DALL-E 2（https://m.thepaper.cn/baijiahao_20522594）|
+|Google：DreamBooth|文生图模型|Diffusion模型| |开源数据包括：Leion以及谷歌自己的数据|弥补stable diffusion无法生成特定个人图像的缺陷（https://zh.wikipedia.org/wiki/DreamBooth|
+|百度：ERNIE-ViILG|文生图模型|Transformer|10B|开源数据包括：Leion以及百度自己的数据|引入知识图谱，提升了学习效率及可解释性；更准确理解中文表达击败stable diffusion、DALL-E 2（https://m.thepaper.cn/baijiahao_20522594）|
 |智源：文汇|图文跨模态模型|Transformer|11.3B|开源数据包括：Leion|可完成多种文图生成任务（https://baijiahao.baidu.com/s?id=1688859914374120633&wfr=spider&for=pc）|
-| | | | | | |
-|Meta：Make-a-Video|文生视频模型|Diffusion 模型| |带描述性的图片和无标签的视频|（1）加速了文字生成视频模型的训练速度；（2）训练时不需要文字和视频配对的数据；（3）继承了如今图片生成模型的美学性
-在实验中，超过70%的被试愿意选择make a video|
+|Meta：Make-a-Video|文生视频模型|Diffusion 模型| |带描述性的图片和无标签的视频|（1）加速了文字生成视频模型的训练速度；（2）训练时不需要文字和视频配对的数据；（3）继承了如今图片生成模型的美学性 在实验中，超过70%的被试愿意选择make a video|
 |北京智源研究院：CogVideo|文生视频模型|Transformer|9.4B|5.4 million的带文字视频|复杂prompt下生成视频的准确率较高|
-| | | | | | |
 |Google：DreamFusion|文生3D视频|Diffusion 模型| |图片|仅需要2D数据即可训练模型|
 |Nvida：Magic 3D|文生3D模型|Diffusion 模型| | |（1）生成3D模型的速度是Dream Fusion的2倍；（2）3D效果比Dream Fusion好，分辨率是后者的8倍|
 
