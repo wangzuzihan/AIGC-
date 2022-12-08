@@ -211,19 +211,8 @@ David Ha（ex-Google）|
 
 <div align=center>
 
-|代表公司|文本|图像|语音|视频和3D|代码|生物|
-|:-----:|:---:|:--:|:--:|:-----:|:--:|:--:|
-|华为|盘古|盘古|盘古|DNN|CodeGeeX|盘古|
-|百度|ERNIE-M/ERNIE-Layout/PLATO/ERNIE-IE/ERNIE-Search/ERNIE-UIE/ERNIE 3.0/ERNIE 3.0Zeus/鹏城-百度文心|VIMER-Image/ERNIE-ViLG|ERNIE-SAT|VIMER-Video|ERNIE-Code|Helix-GEM/Helix-Fold/Helix-FoldSingle|
-|北京智源人工智能研究所|悟道 文渊/悟道 文汇 全部开源|悟道 文澜/AltDiffusion|悟道2.0 开源|||悟道 文溯 开源|
-|智谱华章|GLM-130B|CogVideo||||||
-|小冰公司|第九代小冰|||||||
-|阿里巴巴|M6／PLUG|M6|LC-BLSTM／DFSMN-CTC||||
-|腾讯|混元|GFP-GAN|TLC-BLSTM|NLP||GROVER／GCN-MF|
-|字节跳动|veGiantModel/X2-VLM|
-|IDEA|二郎神/周文王/燃灯/闻仲|太乙 Stable Diffusion|||||
-|西湖心辰|ALBERT|改进的Stable Diffusion|
-|澜舟科技|孟子|孟子|
+
+
 
 </div>
 
@@ -292,6 +281,29 @@ David Ha（ex-Google）|
   
 </div>
 
+我们对比了国内外SOTA，具体情况如下：
+
+|模型|类型|架构|参数|数据|性能|
+|:----|:----|:----|:----|:----|:----|
+|Google：PaLM|语言模型|基于Transformer的dense decoder-only模型|540 B|多语言和GitHub代码数据集|语言理解和生成的合理性，代码相关任务相比LaMDA，GLaM都有很大提升|
+|OpenAI：ChatGPT/GPT4|语言模型|ChatGPT：RLHF
+GPT4:MoE RLHF|ChatGPT: 暂时不知道（GPT4的一部分能力露出）
+GPT 4至少是5250billion（30x GPT3）也有说法是100 Trillion（https://towardsdatascience.com/gpt-4-will-have-100-trillion-parameters-500x-the-size-of-gpt-3-582b98d82253）|ChatGPT：多语言和GitHub代码数据集
+GPT 4：多语言和GitHub代码数据集|ChatGPT：对话任务中alignment最好的模型
+GPT4：多轮长对话表现很好，inference time对比GPT3不增加，推理时间不增加|
+|智源/华章：GLM-130B|语言模型|通用语言双向稠密模型|130B|4000 亿个文本标识符（中文和英文各 2000 亿）|精度高（https://new.qq.com/rain/a/20220905A0651E00）|
+| | | | | | |
+|Google：DreamBooth|文生图模型|Diffusion模型| |开源数据包括：Leion以及谷歌自己的数据|弥补stable diffusion无法生成特定个人图像的缺陷（https://zh.wikipedia.org/wiki/DreamBooth）|
+|百度：ERNIE-ViILG|文生图模型|Transformer|10B|开源数据包括：Leion以及百度自己的数据|引入知识图谱，提升了学习效率及可解释性；更准确理解中文表达
+击败stable diffusion、DALL-E 2（https://m.thepaper.cn/baijiahao_20522594）|
+|智源：文汇|图文跨模态模型|Transformer|11.3B|开源数据包括：Leion|可完成多种文图生成任务（https://baijiahao.baidu.com/s?id=1688859914374120633&wfr=spider&for=pc）|
+| | | | | | |
+|Meta：Make-a-Video|文生视频模型|Diffusion 模型| |带描述性的图片和无标签的视频|（1）加速了文字生成视频模型的训练速度；（2）训练时不需要文字和视频配对的数据；（3）继承了如今图片生成模型的美学性
+在实验中，超过70%的被试愿意选择make a video|
+|北京智源研究院：CogVideo|文生视频模型|Transformer|9.4B|5.4 million的带文字视频|复杂prompt下生成视频的准确率较高|
+| | | | | | |
+|Google：DreamFusion|文生3D视频|Diffusion 模型| |图片|仅需要2D数据即可训练模型|
+|Nvida：Magic 3D|文生3D模型|Diffusion 模型| | |（1）生成3D模型的速度是Dream Fusion的2倍；（2）3D效果比Dream Fusion好，分辨率是后者的8倍|
 
 
 六、困难和挑战
@@ -338,4 +350,16 @@ AGI的展望、中美学者对AIGC的不同态度、AI的民主化以及游戏�
 <b>（4）游戏领域的新机遇。</b>今天在游戏领域，与 Generative AI 结合的，其实只有 unity 通过 huggingface 简单地这个支持了 stable diffusion 的功能，而我们相信这里有一个颠覆现有引擎的这个机会，因为如果有了 Generative AI 的帮助所有的创作管线都会发生改变，从对话、剧情、角色、3D场景，甚至未来是玩法，都会发生转变。
 
 
+|Take away：|
+|:---:|
+|人才密度对比：中国缺少做生成式AI方向的顶级学者，同时人才交叉密度也和美国相比有较大差距。在美国，例如Deepmind.AI 研发团队超过800人，各个学科的PHD都有，OpenAI300人。国内一方面缺乏AI的领军人物，有知名度的学者较少hands-on带团队。另一中国的人才交叉密度目前仍不足，例如智源/华章研发团队200-300人（核心研发30）。|
+|算力投入：微软给OpenAI万张GPU，谷歌模型动辄2000TPU，国内SOTA大多仅为1000GPU。造成了模型训练时间的显著差异，例如智源训练一次GLM的资源是Google PaLM的1/13|
+|架构：ChatGPT是在GPT 3.5系列的基础上进行改进的，引入了RLHF训练方式，CharacterAI模型训练cost不到千万美元的量级，参数也只有千亿，但是效果非常好在架构上做了不少优化；国内虽然有参数很大的模型，例如百度文心，但是整体的表现和美国相比有很大距离，主要原因是中国的大模型较多采用已有的transformer架构，少有创新。|
+|资金差异：美国生成式AI项目资金投入更多，例如OpenAI投入了20亿美金，Amazon20亿美金；对比国内大厂，由于内部资源竞争且大厂主要考虑降本增效，生成式AI行业资金投入通常是十亿之内。而像政府支持机构，例如北京智源研究院，每年投入仅为5亿人民币。|
+|造成结果：中国的Foundation Model全面落后，应用同样落后，美国先进模型不开放给中国；国内对于未来的预期技术成熟速度产生了较为悲观的预判，如：在海外的华人，比如工业界的学者对比国内的学术界和工业界学者整体上对于文字语言模型或者视频模型，他们都更乐观一些。比如说当我们去问如果要做到一个像抖音一样输出质量 720p 5 到 10 分钟高逻辑性的视频能否在未来三年完成的时候，国内的学者大都相对保守，而来自谷歌或者meta等机构的学者则更加乐观。|
+|中国需要：|
+|比较强研发+engineer能力和经验的团队|
+|足够的资金：中国的资本比较缺乏耐心，会要求被投企业很快有回报。但生成式AI需要投入很多研发成本，需要很多模型和算法的迭代与优化。|
+|数据：中国的生成式AI生态没有搭建起来，很多API都没有开源出去，因此获得的数据相比已经开源的Stability会减少很多。|
+|算力：更强大的算力才能训练出更好，功能更完备的模型，一个模型2000张GPU的集群应该是充分条件。|
 
