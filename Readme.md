@@ -126,7 +126,7 @@
 
 
 美国具有代表性的公司
-（1）Open AI：是一个人工智能（AI）研究实验室，由营利组织 OpenAI LP 与母公司非营利组织 OpenAI Inc 所组成，目的是促进和发展友好的人工智能，使人类整体受益。Open AI目前估值超过200亿美金。
+（1）Open AI：是一个人工智能（AI）研究实验室，由营利组织 OpenAI LP 与母公司非营利组织 OpenAI Inc 所组成，目的是促进和发展友好的人工智能，使人类整体受益。Open AI目前估值超过200亿美金。关于Open AI更多的信息可以查看：https://www.businessinsider.com/history-of-openai-company-chatgpt-elon-musk-founded-2022-12#musk-meanwhile-is-still-commenting-13
 
 （2）Midjourney：7 月 12 日公测，8 月已经盈利，用户用 Discord 机器人命令通过 Midjourney 来创建艺术品，团队由 Leap Motion 的联合创始人 David Holz 领导，商业模式是使用免费增值业务模式。
 
