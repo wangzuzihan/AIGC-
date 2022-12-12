@@ -207,21 +207,21 @@
 
 |代表公司/机构|NLP|CV|语音|跨模态|代码|生物|行业大模型|算力资源|资金投入|领军人物|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|华为|盘古NLP大模型|盘古CV大模型| |盘古跨模态大模型|CodeGeeX|盘古分子大模型| |华为打造昇腾AI系统，建设中国算力一张网（https://baijiahao.baidu.com/s?id=1743138180340584460&wfr=spider&for=pc） |在生成式AI的预算看起来是10亿人民币以内,去年AI整体投入15亿美元（https://www.ngui.cc/el/1581331.html） |田奇|
-|百度|ERNIE-Health（医疗）/ERNIE-Finance（金融）/PLATO（对话）/ERNIE-Search（搜索）/ERNIE-UIE（信息搜取）/ERNIE-M（跨语言）/ERNIE-Sage（图网络）/ERNIE 3.0（百亿级）/鹏城-百度 文心（千亿级）/ERNIE 3.0 Zeus（任务知识增强）/ERNIE 3.0 Tiny（轻量级）/ERNIE-Code （代码）|VIMER-StrucTexT（OCR图像表征学习）/VIMER-UMS（商品图文搜索）/VIMER-UFO（多任务视觉表征学习）/VIMER-TCIR（视觉处理多任务学习）/VIMER-CAE（自监督视觉表征学习）| |ERNIE-VILG（图文生成）/ERNIE-Layout（文档分析）/ERNIE-ViL（视觉-语言）/ERNIE-SAT（语言-语言）/ERNIE-GeoL（地理-语言）| |HELIX-GEM（化合物表征/HELIX-Fold（蛋白质结构分析）|国网-百度-文心/浦发-百度-文心/航天-百度-文心/人民网-百度-文心/冰城-百度-文心/电影频道-百度-文心/深燃-百度-文心/吉利-百度-文心/泰康-百度-文心/TCL-百度-文心/辞海-百度-文心|百度智能云-昆仑芯（盐城）智算中心，算力规模达200P（https://baijiahao.baidu.com/s?id=1742862623767555762&wfr=spider&for=pc） 百度百舸提供了千卡规模|在生成式AI的预算看起来是10亿人民币以内，智能云十年累计投入超一千亿元|王海峰|
+|<div style="width: 100pt">华为|<div style="width: 100pt">盘古NLP大模型|<div style="width: 100pt">盘古CV大模型|<div style="width: 100pt"> |<div style="width: 100pt">盘古跨模态大模型|<div style="width: 100pt">CodeGeeX|<div style="width: 100pt">盘古分子大模型| <div style="width: 100pt">|<div style="width: 100pt">华为打造昇腾AI系统，建设中国算力一张网https://baijiahao.baidu.com/s?id=1743138180340584460&wfr=spider&for=pc |在生成式AI的预算看起来是10亿人民币以内,去年AI整体投入15亿美元 https://www.ngui.cc/el/1581331.html |田奇|
+|百度|ERNIE-Health（医疗）/ERNIE-Finance（金融）/PLATO（对话）/ERNIE-Search（搜索）/ERNIE-UIE（信息搜取）/ERNIE-M（跨语言）/ERNIE-Sage（图网络）/ERNIE 3.0（百亿级）/鹏城-百度 文心（千亿级）/ERNIE 3.0 Zeus（任务知识增强）/ERNIE 3.0 Tiny（轻量级）/ERNIE-Code （代码）|VIMER-StrucTexT（OCR图像表征学习）/VIMER-UMS（商品图文搜索）/VIMER-UFO（多任务视觉表征学习）/VIMER-TCIR（视觉处理多任务学习）/VIMER-CAE（自监督视觉表征学习）| |ERNIE-VILG（图文生成）/ERNIE-Layout（文档分析）/ERNIE-ViL（视觉-语言）/ERNIE-SAT（语言-语言）/ERNIE-GeoL（地理-语言）| |HELIX-GEM（化合物表征/HELIX-Fold（蛋白质结构分析）|国网-百度-文心/浦发-百度-文心/航天-百度-文心/人民网-百度-文心/冰城-百度-文心/电影频道-百度-文心/深燃-百度-文心/吉利-百度-文心/泰康-百度-文心/TCL-百度-文心/辞海-百度-文心|百度智能云-昆仑芯（盐城）智算中心，算力规模达200P https://baijiahao.baidu.com/s?id=1742862623767555762&wfr=spider&for=pc 百度百舸提供了千卡规模|在生成式AI的预算看起来是10亿人民币以内，智能云十年累计投入超一千亿元|王海峰|
 |网易|图文预训练/音乐预训练/行为序列预训练/文本预训练/AI音乐|骨骼捏脸/Mesh捏脸/挖机视角合成/手势迁移/三维场景&材质重建/头发重建/挖机双目重建| |虚拟人：表情迁移、手势&肢体编码、识别及迁移、表情基自动绑定、语音生成表情、表情动作单元检测、换脸| | | |自建千卡|NA 预测在一亿|赵增|
-|美团|美团NLP大平台-搜索，推荐，广告-智能客服/助理-内容社区-企业办公-有与悟道合作-强调大模型+小样本联合训练方案|美团视频团队| |美团文生图大模型（暂未对外）| | | |CTR 预测服务成功的迁移到 GPU 平台上，在为业务提供更好的支撑的同时也获得了更好的性价比（https://www.elecfans.com/d/1767002.html）| |夏华夏|
-|智谱华章|GLM系列模型（共8个）GLM-130B/Transformer-XL（中文预训练模型，代替GPT中的中文Transformer）/CodeGeeX（代码）/Multilingual-GLM（多语言）| | |CogView（文生图）/CogVideo（文生视频）|CodeGeeX| | |GLM-130B，通过快速推理方法，已经将模型压缩到可以在一台 A100（40G*8）或 V100（32G*8）服务器上进行单机推理（http://www.myzaker.com/article/638db557b15ec0416303e817） |估值20亿人民币，华兴做FA，一线美金并没有注资|唐杰|
+|美团|美团NLP大平台-搜索，推荐，广告-智能客服/助理-内容社区-企业办公-有与悟道合作-强调大模型+小样本联合训练方案|美团视频团队| |美团文生图大模型（暂未对外）| | | |CTR 预测服务成功的迁移到 GPU 平台上，在为业务提供更好的支撑的同时也获得了更好的性价比 https://www.elecfans.com/d/1767002.html | |夏华夏|
+|智谱华章|GLM系列模型（共8个）GLM-130B/Transformer-XL（中文预训练模型，代替GPT中的中文Transformer）/CodeGeeX（代码）/Multilingual-GLM（多语言）| | |CogView（文生图）/CogVideo（文生视频）|CodeGeeX| | |GLM-130B，通过快速推理方法，已经将模型压缩到可以在一台 A100（40G*8）或 V100（32G*8）服务器上进行单机推理 http://www.myzaker.com/article/638db557b15ec0416303e817 |估值20亿人民币，华兴做FA，一线美金并没有注资|唐杰|
 |西湖心辰|ALBERT|ALBERT| | | | | |背靠西湖，近千卡|上一轮投资人：蓝驰创投、凯泰资本、西湖大学。目前希望融资2000万美金|蓝振忠|
-|澜舟科技|孟子大模型|孟子Mengzi-图文模型| |孟子Mengzi-图文模型| | |孟子Mengzi-金融模型|模型压缩和轻量化（https://baijiahao.baidu.com/s?id=1747836631598279154&wfr=spider&for=pc）| pre-Al轮投资近千万，联想创投、斯道资本共同领投，创新工场跟投|周明|
-|腾讯|混元HunYuan|混元HunYuan/GFP-GAN|TLC-BLSTM|混元HunYuan| |GROVER/GCN-MF| |(1)业内首推数字孪生云，算力消耗降50％，开发速度翻番（https://new.qq.com/rain/a/20221205A029X700） （2）建设长三角人工智能先进计算中心，建成算力是目前世界排名第一的超算中心的10倍（https://sghexport.shobserver.com/html/baijiahao/2022/09/08/848366.html）| |张正友|
+|澜舟科技|孟子大模型|孟子Mengzi-图文模型| |孟子Mengzi-图文模型| | |孟子Mengzi-金融模型|模型压缩和轻量化 https://baijiahao.baidu.com/s?id=1747836631598279154&wfr=spider&for=pc| pre-Al轮投资近千万，联想创投、斯道资本共同领投，创新工场跟投|周明|
+|腾讯|混元HunYuan|混元HunYuan/GFP-GAN|TLC-BLSTM|混元HunYuan| |GROVER/GCN-MF| |(1)业内首推数字孪生云，算力消耗降50％，开发速度翻番https://new.qq.com/rain/a/20221205A029X700 （2）建设长三角人工智能先进计算中心，建成算力是目前世界排名第一的超算中心的10倍https://sghexport.shobserver.com/html/baijiahao/2022/09/08/848366.html| |张正友|
 |字节|火山引擎大模型训练框架（veGiantModel）|iBOT| |X2-VLM| | | | | |李航|
-|阿里|M6/PLUG/通义-AliceMind|M6/通义-CV|LC-BLSTM/DFSMN-CTC|通义-M6| | | |（1）张北超级智算中心，总建设规模为12 EFLOPS（每秒1200亿亿次浮点运算）AI算力，（https://m.gmw.cn/baijia/2022-09/19/36034189.html） （2）飞天智算平台，提升AI训练效率11倍（https://baijiahao.baidu.com/s?id=1742726416680420587&wfr=spider&for=pc）| |程立|
+|阿里|M6/PLUG/通义-AliceMind|M6/通义-CV|LC-BLSTM/DFSMN-CTC|通义-M6| | | |（1）张北超级智算中心，总建设规模为12 EFLOPS（每秒1200亿亿次浮点运算）AI算力，https://m.gmw.cn/baijia/2022-09/19/36034189.html （2）飞天智算平台，提升AI训练效率11倍 https://baijiahao.baidu.com/s?id=1742726416680420587&wfr=spider&for=pc| |程立|
 |文澜大模型|MLMM|BriVL| |BriVL| | | | |目前有一线TS|卢志武|
-|上海人工智能研究院| | | | | | | |（1）AIDC，其总算力达3740PetaFLOPS（https://baijiahao.baidu.com/s?id=1722840044715688959&wfr=spider&for=pc） （2）与华为签署全面合作协议共同构建昇腾AI产业生态，打造公共算力平台（http://www.xinhuanet.com/info/20220812/4ee9d2eae3714c10aa630fcfa7626382/c.html）| |毛军发|
+|上海人工智能研究院| | | | | | | |（1）AIDC，其总算力达3740PetaFLOPS https://baijiahao.baidu.com/s?id=1722840044715688959&wfr=spider&for=pc （2）与华为签署全面合作协议共同构建昇腾AI产业生态，打造公共算力平台http://www.xinhuanet.com/info/20220812/4ee9d2eae3714c10aa630fcfa7626382/c.html| |毛军发|
 |北京智源人工智能研究院|悟道 文渊/悟道 文汇|悟道 文澜/AltCLIP/EVA| |CogVideo| |悟道 文溯| |一千多张卡|每年经费5亿人民币左右|刘嘉|
 |IDEA|二郎神/周文王/燃灯/比干/闻仲|二郎神/周文王/燃灯/比干/闻仲/太乙| | | | |余元|NLP和CV团队Share鹏城实验室下面2400张卡中的1200张A-100（AOHAN）|每年4亿人民币|沈向洋/张家兴/张磊|
-|浙江之江实验室|NLP算法团队|CV算法团队| |混合增强智能研究中心| | | |1600张A-100（AOHAN）|（1）2018-2022年省财政拨款100亿（https://baijiahao.baidu.com/s?id=1619452937154157900&wfr=spider&for=pc） （2）5年社会累积投资28.6亿（http://www.kjw.cc/guonei/2022/1020/61641.html） |潘云鹤|
+|浙江之江实验室|NLP算法团队|CV算法团队| |混合增强智能研究中心| | | |1600张A-100（AOHAN）|（1）2018-2022年省财政拨款100亿https://baijiahao.baidu.com/s?id=1619452937154157900&wfr=spider&for=pc （2）5年社会累积投资28.6亿http://www.kjw.cc/guonei/2022/1020/61641.html |潘云鹤|
 
 
 </div>
